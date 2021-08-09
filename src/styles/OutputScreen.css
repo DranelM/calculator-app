@@ -1,0 +1,10 @@
+.outputScreen {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  padding-right: var(--default-padding);
+  align-items: center;
+  background-color: rgba(250, 235, 215, 0.4);
+  width: var(--board-width);
+  height: 60px;
+}

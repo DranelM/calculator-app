@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  position: fixed;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+:root {
+  --board-width: 280px;
+  --default-padding: 20px;
+  --shadow-size: 2px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.roundedBorders {
+  border-radius: 5px;
+}

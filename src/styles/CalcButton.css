@@ -1,0 +1,8 @@
+.calcButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.5);
+  height: 35px;
+}
