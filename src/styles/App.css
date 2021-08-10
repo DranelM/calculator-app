@@ -20,6 +20,7 @@
   left: 0;
   right: 0;
   color: var(--text-screen-color);
+  font-size: 9px;
 }
 
 .attribution a {
