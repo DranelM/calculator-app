@@ -8,15 +8,21 @@ const ThemeChanger = ({ checkedTheme, onChange }) => {
   return (
     <div className="themeChanger">
       {themes.map((theme) => (
-        <input
-          key={theme}
-          className={theme}
-          type="radio"
-          name="themeToggle"
-          value={theme}
-          onChange={() => onChange(theme)}
-          checked={getChecked(theme)}
-        ></input>
+        <label className="radio" key={theme}>
+          <span className="radio__input">
+            <input
+              key={theme}
+              className={`${theme}`}
+              type="radio"
+              name="themeToggle"
+              value={theme}
+              onChange={() => onChange(theme)}
+              checked={getChecked(theme)}
+            ></input>
+            <span className="radio__control"></span>
+          </span>
+          <span className="radio__label">{theme[theme.length - 1]}</span>
+        </label>
       ))}
     </div>
   );

@@ -1,7 +1,27 @@
 .App {
+  position: fixed;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: var(--backgroud-color);
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: var(--text-screen-color);
+}
+
+.attribution a {
+  color: var(--button-sysFunc-background);
 }

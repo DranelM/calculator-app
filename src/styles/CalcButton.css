@@ -2,7 +2,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: antiquewhite;
-  box-shadow: 0 2px rgba(0, 0, 0, 0.5);
+  color: var(--text-buttons-color);
+  background-color: var(--button-classic-background);
+  box-shadow: 0 2px var(--button-classic-shadow);
   height: 35px;
+}
+
+.delButton,
+.resetButton {
+  background-color: var(--button-sysFunc-background);
+  box-shadow: 0 2px var(--button-sysFunc-shadow);
+  color: var(--text-functional-color);
+}
+
+.resultsButton {
+  background-color: var(--button-result-background);
+  box-shadow: 0 2px var(--button-result-shadow);
+  color: var(--text-result-color);
+}
+
+.delButton,
+.resetButton,
+.resultsButton {
+  font-size: 12px;
 }

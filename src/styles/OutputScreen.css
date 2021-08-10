@@ -2,9 +2,12 @@
   display: flex;
   flex-flow: row;
   justify-content: flex-end;
-  padding-right: var(--default-padding);
   align-items: center;
-  background-color: rgba(250, 235, 215, 0.4);
+  color: var(--text-screen-color);
+  padding-right: var(--default-padding);
+  background-color: var(--screen-bckgd);
   width: var(--board-width);
+  font-family: "Spartan", sans-serif;
+  font-size: 32px;
   height: 60px;
 }

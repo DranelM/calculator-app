@@ -1,5 +1,5 @@
 .board {
-  background-color: rgba(250, 235, 215, 0.4);
+  background-color: var(--toggle-bckgd);
   padding: var(--default-padding);
   width: var(--board-width);
   display: grid;

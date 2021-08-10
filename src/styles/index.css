@@ -2,31 +2,60 @@
   box-sizing: border-box;
 }
 
-#root {
-  position: fixed;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-
 :root {
   --board-width: 280px;
   --default-padding: 20px;
   --shadow-size: 2px;
 }
 
-.attribution {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
 .roundedBorders {
   border-radius: 5px;
+}
+
+.theme1 {
+  --backgroud-color: hsl(222, 26%, 31%);
+  --toggle-bckgd: hsl(223, 31%, 20%);
+  --screen-bckgd: hsl(224, 36%, 15%);
+  --button-sysFunc-background: hsl(225, 21%, 49%);
+  --button-sysFunc-shadow: hsl(224, 28%, 35%);
+  --button-result-background: hsl(6, 63%, 50%);
+  --button-result-shadow: hsl(6, 70%, 34%);
+  --button-classic-background: hsl(30, 25%, 89%);
+  --button-classic-shadow: hsl(28, 16%, 65%);
+  --text-buttons-color: hsl(221, 14%, 31%);
+  --text-functional-color: white;
+  --text-screen-color: white;
+  --text-result-color: white;
+}
+
+.theme2 {
+  --backgroud-color: hsl(0, 0%, 90%);
+  --toggle-bckgd: hsl(0, 5%, 81%);
+  --screen-bckgd: hsl(0, 0%, 93%);
+  --button-sysFunc-background: hsl(185, 42%, 37%);
+  --button-sysFunc-shadow: hsl(185, 58%, 25%);
+  --button-result-background: hsl(25, 98%, 40%);
+  --button-result-shadow: hsl(25, 99%, 27%);
+  --button-classic-background: hsl(45, 7%, 89%);
+  --button-classic-shadow: hsl(35, 11%, 61%);
+  --text-buttons-color: hsl(60, 10%, 19%);
+  --text-functional-color: white;
+  --text-screen-color: hsl(60, 10%, 19%);
+  --text-result-color: white;
+}
+
+.theme3 {
+  --backgroud-color: hsl(268, 75%, 9%);
+  --toggle-bckgd: hsl(268, 71%, 12%);
+  --screen-bckgd: hsl(268, 71%, 12%);
+  --button-sysFunc-background: hsl(281, 89%, 26%);
+  --button-sysFunc-shadow: hsl(285, 91%, 52%);
+  --button-result-background: hsl(176, 100%, 44%);
+  --button-result-shadow: hsl(177, 92%, 70%);
+  --button-classic-background: hsl(268, 47%, 21%);
+  --button-classic-shadow: hsl(290, 70%, 36%);
+  --text-buttons-color: hsl(52, 100%, 62%);
+  --text-functional-color: white;
+  --text-screen-color: hsl(52, 100%, 62%);
+  --text-result-color: hsl(198, 20%, 13%);
 }
