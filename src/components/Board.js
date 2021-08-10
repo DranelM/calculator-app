@@ -4,7 +4,6 @@ import CalcButton from "./CalcButton";
 const Board = ({ buffer, setBuffer }) => {
   const [currentOperation, setCurrentOperation] = useState(null);
   const [result, setResult] = useState(0);
-  const [isFloat, setIsFloat] = useState(false);
 
   const boardElements = [
     "7",
@@ -28,7 +27,6 @@ const Board = ({ buffer, setBuffer }) => {
   ];
 
   function processClick(value) {
-    console.log(value);
     if (!isNaN(parseInt(value))) {
       processNumber(value);
     } else {
@@ -46,7 +44,6 @@ const Board = ({ buffer, setBuffer }) => {
 
   function processOperation(operation) {
     if (operation === "=") {
-      debugger;
       switch (currentOperation) {
         case "+":
           setBuffer(String(Number(result) + Number(buffer)));
@@ -75,19 +72,12 @@ const Board = ({ buffer, setBuffer }) => {
       setResult(0);
       setBuffer(0);
     } else if (operation === ".") {
-      // debugger;
-      if (!isFloat) {
-        setIsFloat(true);
+      if (!String(buffer).includes(".")) {
         setBuffer(buffer + ".");
-        setCurrentOperation(operation);
       }
       return;
     } else {
       // When math opations are clicked
-      console.log(buffer[buffer.length - 1]);
-      if (buffer[buffer.length - 1] === ".") {
-        setIsFloat(false);
-      }
       setResult(buffer);
       setCurrentOperation(operation);
       setBuffer(0);
