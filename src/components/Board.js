@@ -35,7 +35,7 @@ const Board = ({ buffer, setBuffer }) => {
   }
 
   function processNumber(value) {
-    if (buffer === 0) {
+    if (buffer === "0") {
       setBuffer(value);
     } else {
       setBuffer(buffer + "" + value);

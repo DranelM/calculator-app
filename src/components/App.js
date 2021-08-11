@@ -5,7 +5,7 @@ import ThemeChanger from "./ThemeChanger";
 
 function App() {
   // eslint-disable-next-line no-unused-vars
-  const [outputValue, setOutputValue] = useState(0);
+  const [outputValue, setOutputValue] = useState("0");
   const [currentTheme, setCurrentTheme] = useState(
     localStorage.getItem("theme") || "theme1"
   );
@@ -13,6 +13,13 @@ function App() {
   function handleThemeToggle(theme) {
     setCurrentTheme(theme);
   }
+
+  useEffect(() => {
+    if (outputValue.length > 11) {
+      setOutputValue("99999999999");
+      alert("Exceeded maximum amount of numbers on screen");
+    }
+  }, [outputValue]);
 
   useEffect(() => {
     localStorage.setItem("theme", currentTheme);
