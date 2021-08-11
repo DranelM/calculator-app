@@ -64,13 +64,13 @@ const Board = ({ buffer, setBuffer }) => {
       if (buffer === "0") {
         return;
       } else if (buffer.length === 1) {
-        setBuffer(0);
+        setBuffer("0");
       } else {
         setBuffer(buffer.substring(0, buffer.length - 1));
       }
     } else if (operation === "RESET") {
       setResult(0);
-      setBuffer(0);
+      setBuffer("0");
     } else if (operation === ".") {
       if (!String(buffer).includes(".")) {
         setBuffer(buffer + ".");
@@ -80,7 +80,7 @@ const Board = ({ buffer, setBuffer }) => {
       // When math opations are clicked
       setResult(buffer);
       setCurrentOperation(operation);
-      setBuffer(0);
+      setBuffer("0");
       return;
     }
     setCurrentOperation(null);

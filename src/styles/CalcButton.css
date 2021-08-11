@@ -8,6 +8,38 @@
   height: 35px;
 }
 
+.calcButton:hover {
+  background-color: var(--button-classic-hover);
+}
+
+.calcButton:active {
+  background-color: var(--button-classic-clicked);
+  box-shadow: 0 1px var(--button-classic-shadow);
+  transform: translateY(1px);
+}
+
+.delButton:hover,
+.resetButton:hover {
+  background-color: var(--button-sysFunc-hover);
+}
+
+.delButton:active,
+.resetButton:active {
+  background-color: var(--button-sysFunc-clicked);
+  box-shadow: 0 1px var(--button-sysFunc-shadow);
+  transform: translateY(1px);
+}
+
+.resultsButton:hover {
+  background-color: var(--button-result-hover);
+}
+
+.resultsButton:active {
+  background-color: var(--button-result-clicked);
+  box-shadow: 0 1px var(--button-result-shadow);
+  transform: translateY(1px);
+}
+
 .delButton,
 .resetButton {
   background-color: var(--button-sysFunc-background);

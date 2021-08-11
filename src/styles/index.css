@@ -16,12 +16,22 @@
   --backgroud-color: hsl(222, 26%, 31%);
   --toggle-bckgd: hsl(223, 31%, 20%);
   --screen-bckgd: hsl(224, 36%, 15%);
+
   --button-sysFunc-background: hsl(225, 21%, 49%);
   --button-sysFunc-shadow: hsl(224, 28%, 35%);
+  --button-sysFunc-clicked: hsl(225, 21%, 43%);
+  --button-sysFunc-hover: hsl(225, 21%, 55%);
+
   --button-result-background: hsl(6, 63%, 50%);
   --button-result-shadow: hsl(6, 70%, 34%);
+  --button-result-clicked: hsl(6, 63%, 44%);
+  --button-result-hover: hsl(6, 63%, 56%);
+
   --button-classic-background: hsl(30, 25%, 89%);
   --button-classic-shadow: hsl(28, 16%, 65%);
+  --button-classic-clicked: hsl(30, 25%, 83%);
+  --button-classic-hover: hsl(30, 25%, 95%);
+
   --text-buttons-color: hsl(221, 14%, 31%);
   --text-functional-color: white;
   --text-screen-color: white;
@@ -32,12 +42,22 @@
   --backgroud-color: hsl(0, 0%, 90%);
   --toggle-bckgd: hsl(0, 5%, 81%);
   --screen-bckgd: hsl(0, 0%, 93%);
+
   --button-sysFunc-background: hsl(185, 42%, 37%);
   --button-sysFunc-shadow: hsl(185, 58%, 25%);
+  --button-sysFunc-clicked: hsl(185, 42%, 31%);
+  --button-sysFunc-hover: hsl(185, 42%, 43%);
+
   --button-result-background: hsl(25, 98%, 40%);
   --button-result-shadow: hsl(25, 99%, 27%);
+  --button-result-clicked: hsl(25, 98%, 34%);
+  --button-result-hover: hsl(25, 98%, 46%);
+
   --button-classic-background: hsl(45, 7%, 89%);
   --button-classic-shadow: hsl(35, 11%, 61%);
+  --button-classic-clicked: hsl(45, 7%, 83%);
+  --button-classic-hover: hsl(45, 7%, 95%);
+
   --text-buttons-color: hsl(60, 10%, 19%);
   --text-functional-color: white;
   --text-screen-color: hsl(60, 10%, 19%);
@@ -48,12 +68,22 @@
   --backgroud-color: hsl(268, 75%, 9%);
   --toggle-bckgd: hsl(268, 71%, 12%);
   --screen-bckgd: hsl(268, 71%, 12%);
+
   --button-sysFunc-background: hsl(281, 89%, 26%);
   --button-sysFunc-shadow: hsl(285, 91%, 52%);
+  --button-sysFunc-clicked: hsl(281, 89%, 20%);
+  --button-sysFunc-hover: hsl(281, 89%, 32%);
+
   --button-result-background: hsl(176, 100%, 44%);
   --button-result-shadow: hsl(177, 92%, 70%);
+  --button-result-clicked: hsl(176, 100%, 38%);
+  --button-result-hover: hsl(176, 100%, 50%);
+
   --button-classic-background: hsl(268, 47%, 21%);
   --button-classic-shadow: hsl(290, 70%, 36%);
+  --button-classic-clicked: hsl(268, 47%, 15%);
+  --button-classic-hover: hsl(268, 47%, 27%);
+
   --text-buttons-color: hsl(52, 100%, 62%);
   --text-functional-color: white;
   --text-screen-color: hsl(52, 100%, 62%);
