@@ -1,5 +1,7 @@
 # Calculator
 
+<img src='./src/assets/calculator.png' alt="Calculator" width="800">
+
 ## 1. Description
 
 Calculator made on the pattern from [frontendmentor.io](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29).
